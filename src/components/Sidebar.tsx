@@ -123,7 +123,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         </div>
 
         {/* Navigation */}
-        <div className="flex-1 overflow-y-auto py-4">
+        <div className="flex-1 overflow-y-auto py-4 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-800">
           <nav className="space-y-6">
             {navigationItems.map((section, sectionIndex) => (
               <div key={sectionIndex}>
